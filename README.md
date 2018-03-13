@@ -2,9 +2,9 @@
 
 ## Create project
 
-  $ docker-compose run web rails new .
+    $ docker-compose run web rails new .
   
 ## Initialize project
 
-  $ docker-compose up -d web
-  $ docker-composer exec web rails db:migrate
+    $ docker-compose up -d web
+    $ docker-composer exec web rails db:migrate
